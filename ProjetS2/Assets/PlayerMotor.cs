@@ -3,8 +3,13 @@
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMotor : MonoBehaviour
 {
+    [SerializeField]
+    private Camera cam;
+
+
     private Vector3 velocity;
     private Vector3 rotation;
+    private Vector3 cameraRotation;
 
 
     private Rigidbody rb;
@@ -21,6 +26,11 @@ public class PlayerMotor : MonoBehaviour
     public void Rotate(Vector3 _rotation)
     {
         rotation = _rotation;
+    }
+
+    public void RotateCamera(Vector3 _cameraRotation)
+    {
+        cameraRotation = _cameraRotation;
     }
 
     private void FixedUpdate()
@@ -41,5 +51,6 @@ public class PlayerMotor : MonoBehaviour
     private void PerformRotation()
     {
         rb.MoveRotation(rb.rotation * Quaternion.Euler(rotation));
+        cam.transform.Rotate(-cameraRotation);
     }
 }
