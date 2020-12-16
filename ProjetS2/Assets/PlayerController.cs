@@ -11,7 +11,10 @@ public class PlayerController : MonoBehaviour
     private float speed = 3f; //Variable de la vitesse. On utilise le type float pour plus de précision
 
     [SerializeField]
-    private float mouseSensitivity = 3f;
+    private float mouseSensitivityX = 3f;
+
+    [SerializeField]
+    private float mouseSensitivityY = 3f;
 
     private PlayerMotor motor;
 
@@ -36,9 +39,16 @@ public class PlayerController : MonoBehaviour
         //On calcule la rotation du joeur en un Vector3
         float yRot = Input.GetAxisRaw("Mouse X");// Récupére le X de la souris
 
-        Vector3 rotation = new Vector3(0, yRot, 0) * mouseSensitivity;
+        Vector3 rotation = new Vector3(0, yRot, 0) * mouseSensitivityX;
 
         motor.Rotate(rotation);
+
+        //On calcule la rotation de la caméra (afin que le joueur ne soit pas incliné lors de ses déplacements de souris) en un Vector3
+        float xRot = Input.GetAxisRaw("Mouse Y");// Récupére le X de la souris
+
+        Vector3 cameraRotation = new Vector3(xRot, 0, 0) * mouseSensitivityY;
+
+        motor.RotateCamera(cameraRotation);//Mettre moins si on veux inverser la caméra
 
     }
 
