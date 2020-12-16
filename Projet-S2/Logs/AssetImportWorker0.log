@@ -15,11 +15,11 @@ C:/Users/Mathis Sportiello/Desktop/EPITA/S2 Project/projet-s2/Projet-S2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65106
+65327
 Successfully changed project path to: C:/Users/Mathis Sportiello/Desktop/EPITA/S2 Project/projet-s2/Projet-S2
 C:/Users/Mathis Sportiello/Desktop/EPITA/S2 Project/projet-s2/Projet-S2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 100.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 30.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0f1 (3721df5a8b28)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,97 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005275 seconds.
+Registered in 0.003176 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 32.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.809 seconds
+- Completed reload, in  1.668 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002502 seconds.
+Registered in 0.001134 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
+- Completed reload, in  1.280 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 56.4 MB.
-System memory in use after: 56.4 MB.
+System memory in use after: 56.5 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1535.
-Total: 1.991700 ms (FindLiveObjects: 0.140800 ms CreateObjectMapping: 0.080400 ms MarkObjects: 1.699100 ms  DeleteObjects: 0.070000 ms)
+Total: 2.109700 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.139700 ms MarkObjects: 1.720000 ms  DeleteObjects: 0.067400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Packages/com.unity.ext.nunit
-  artifactKey: Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ext.nunit using Guid(25a477c2f24db8778a4179421a32cc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376bae3e1e583efde3258e3db36bd4ec') in 0.008448 seconds
-  Import took 0.011659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000546 seconds.
-  path: Packages/com.unity.ext.nunit/package.json
-  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830c660cad37b51b9139313d9aad8a7d') in 0.045123 seconds
-  Import took 0.048462 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Packages/com.unity.ugui/package.json
-  artifactKey: Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/package.json using Guid(319b8889f363f5947acf209c17a94149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac4d7dde69d54bd9ced7ec651343140') in 0.006787 seconds
-  Import took 0.008786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.169360 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fb26e19125af9d09f2b8b04dc54cda') in 0.016645 seconds
-  Import took 0.023850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001954 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8fb26e19125af9d09f2b8b04dc54cda') in 0.011118 seconds
-  Import took 0.015848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.857594 seconds.
-  path: Assets/Scenes/CHARACTER_Shrek.mtl
-  artifactKey: Guid(deb249b1f8fba304da96a072a9603183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CHARACTER_Shrek.mtl using Guid(deb249b1f8fba304da96a072a9603183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1728786b838cec45f4325cb2d231cc6') in 0.028791 seconds
-  Import took 0.041873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.918824 seconds.
-  path: Assets/Scenes/CHARACTER_Shrek.obj
-  artifactKey: Guid(993fad781813f1e4ea1101da23f50cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/CHARACTER_Shrek.obj using Guid(993fad781813f1e4ea1101da23f50cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a9b3c9bfc2d59cad7a0d709e701fe8') in 0.307639 seconds
-  Import took 0.310826 seconds .
+  path: Assets/CHARACTER_Shrek.obj
+  artifactKey: Guid(4cae42a3e3971f94ba2c447ab167f7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CHARACTER_Shrek.obj using Guid(4cae42a3e3971f94ba2c447ab167f7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0640811b78095a7b4d42308d427cb210') in 0.221413 seconds
+  Import took 0.224182 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
