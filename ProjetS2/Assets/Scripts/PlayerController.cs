@@ -18,6 +18,11 @@ public class PlayerController : MonoBehaviour
 
     private PlayerMotor motor;
 
+    // Ajout d'une fonction jump et gravity pour gerer les sauts du joueur
+    public int Jump = 5;
+
+    private CharacterController Player;
+
     private void Start()
     {
         motor = GetComponent<PlayerMotor>(); // Dans motor on sauvegarde le script PlayerMotor
@@ -49,7 +54,6 @@ public class PlayerController : MonoBehaviour
         Vector3 cameraRotation = new Vector3(xRot, 0, 0) * mouseSensitivityY;
 
         motor.RotateCamera(cameraRotation);//Mettre moins si on veux inverser la caméra
-
     }
 
 }
