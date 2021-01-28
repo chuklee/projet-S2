@@ -394,6 +394,7 @@
           <e p="PlayerCollision.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerMotor.cs" t="Include" />
+          <e p="Teleport.cs" t="Include" />
         </e>
       </e>
       <e p="kcp2k.csproj" t="IncludeRecursive" />

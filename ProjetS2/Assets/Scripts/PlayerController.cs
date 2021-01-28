@@ -1,4 +1,5 @@
 ﻿using System;
+using Mirror.Examples.Pong;
 using UnityEngine;
 
 //A FAIRE : -Regarder ce que c'est un Vecteur3
@@ -18,15 +19,14 @@ public class PlayerController : MonoBehaviour
     private float mouseSensitivityY = 3f;
 
     private PlayerMotor motor;
-
+    
     private void Start()
     {
         motor = GetComponent<PlayerMotor>(); // Dans motor on sauvegarde le script PlayerMotor
     }
 
-    private void Update()
+    public void Update()
     {
-        
         //Calculer la vélocité (vitesse) du mouvement de notre joueur
         float
             xMov = Input.GetAxisRaw(
