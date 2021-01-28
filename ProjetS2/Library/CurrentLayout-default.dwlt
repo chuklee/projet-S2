@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 124
+  controlID: 61
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 58
+=======
+  controlID: 89
+>>>>>>> Mirror
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +248,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 59
+=======
+  controlID: 35
+>>>>>>> Mirror
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -349,9 +357,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: ec3b0000
     m_LastClickedID: 15340
     m_ExpandedIDs: 00000000dc3b0000de3b000000ca9a3b
+=======
+    m_SelectedIDs: 4a390000
+    m_LastClickedID: 14666
+    m_ExpandedIDs: 000000003a3900003c39000000ca9a3b
+>>>>>>> Mirror
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +393,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000dc3b0000de3b0000
+=======
+    m_ExpandedIDs: 000000003a3900003c390000
+>>>>>>> Mirror
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -407,7 +425,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c62300003e5b0000
+=======
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> Mirror
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,9 +524,13 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: c8380000
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: f6eeffff12efffff8af0ffffa4f0ffffcef0ffffb8f8ffff
+=======
+      m_ExpandedIDs: cefaffff
+>>>>>>> Mirror
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -614,7 +640,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.44240364, y: -0.54897916, z: 0.43164277, w: -0.56266564}
     speed: 2
+<<<<<<< HEAD
     m_Value: {x: -0.44240206, y: -0.5489772, z: 0.43164122, w: -0.5626636}
+=======
+    m_Value: {x: 0.14532548, y: 0.8445386, z: -0.42846587, w: 0.28644755}
+>>>>>>> Mirror
   m_Size:
     m_Target: 6.332756
     speed: 2
@@ -692,10 +722,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -551
     m_HBaseRangeMax: 551
     m_VBaseRangeMin: -235
     m_VBaseRangeMax: 235
+=======
+    m_HBaseRangeMin: -481
+    m_HBaseRangeMax: 481
+    m_VBaseRangeMin: -202.5
+    m_VBaseRangeMax: 202.5
+>>>>>>> Mirror
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -712,21 +749,36 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
       y: 21
       width: 1102
       height: 470
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 551, y: 235}
+=======
+      y: 0
+      width: 962
+      height: 405
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 481, y: 202.5}
+>>>>>>> Mirror
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -551
       y: -235
       width: 1102
       height: 470
+=======
+      x: -481
+      y: -202.5
+      width: 962
+      height: 405
+>>>>>>> Mirror
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1102, y: 491}
