@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":3.754507064819336,"y":-0.30635929107666018,"z":1.7042956352233887},"rotation":{"x":0.14532548189163209,"y":0.8445386290550232,"z":-0.428465873003006,"w":0.28644755482673647},"size":4.294594764709473,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.6064910888671875,"y":9.66583251953125,"z":-2.1718201637268068},"rotation":{"x":-0.3093187212944031,"y":0.6378877758979797,"z":-0.31192752718925478,"w":-0.6325527429580689},"size":36.01601791381836,"orthographic":false}
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs

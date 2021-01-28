@@ -1,15 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ExitButton
-    - Level1
-    - MenuLevel
     - PlayerController
     - PlayerMotor
-    - PlayerSetup
-    Mirror.Components.dll:
-    - Mirror.NetworkTransform
-    - Mirror.NetworkTransformChild
+    - StartButton
     Mirror.dll:
     - Mirror.NetworkIdentity
     - Mirror.NetworkManager
@@ -31,57 +25,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/LevelsMenu.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11150}
-    - Class: 114
-      Script: {instanceID: 11152}
-    - Class: 114
-      Script: {instanceID: 11176}
-    - Class: 114
-      Script: {instanceID: 11434}
-    - Class: 114
-      Script: {instanceID: 11900}
-    - Class: 114
-      Script: {instanceID: 11990}
-    - Class: 114
-      Script: {instanceID: 12962}
-    - Class: 114
-      Script: {instanceID: 13432}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Menu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -108,19 +51,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11176}
     - Class: 114
-      Script: {instanceID: 11364}
+      Script: {instanceID: 11432}
     - Class: 114
-      Script: {instanceID: 11434}
+      Script: {instanceID: 11898}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 12958}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 13306}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13432}
-    - Class: 114
-      Script: {instanceID: 16754}
+      Script: {instanceID: 16458}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -177,23 +118,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11250}
     - Class: 114
-      Script: {instanceID: 11372}
+      Script: {instanceID: 11370}
     - Class: 114
-      Script: {instanceID: 11376}
+      Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 13022}
+      Script: {instanceID: 13018}
     - Class: 114
-      Script: {instanceID: 13096}
+      Script: {instanceID: 13092}
     - Class: 114
-      Script: {instanceID: 13198}
-    - Class: 114
-      Script: {instanceID: 13338}
-    - Class: 114
-      Script: {instanceID: 13518}
-    - Class: 114
-      Script: {instanceID: 14604}
+      Script: {instanceID: 13512}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -315,12 +250,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MenuLevel
   - hash:
       serializedVersion: 2
       Hash: b2b4a4bf81317f3c08703a1773162a08
@@ -603,12 +532,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror
     className: NetworkRoomManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Level1
   - hash:
       serializedVersion: 2
       Hash: 991d2e8f56cd6070136c2ea5db7ccd6d
@@ -1037,12 +960,6 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ExitButton
-  - hash:
-      serializedVersion: 2
       Hash: 999114b81b16350120dede9aabe37fe4
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror.Discovery
@@ -1058,7 +975,7 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Level1Button
+    className: StartButton
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1185,15 +1102,8 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: kcp2k
     className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 690c0b1a818ad97ab70908d6171d25eb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerSetup
   platform: 19
   scenePathNames:
   - Assets/Menu.unity
   - Assets/Niveau1.unity
-  - Assets/LevelsMenu.unity
   playerPath: C:/Users/marti/Projet-S2/projet-s2/ProjetS2/Build/ProjetS2.exe
