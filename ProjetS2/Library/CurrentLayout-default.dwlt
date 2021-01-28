@@ -118,6 +118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 426
     width: 1367
     height: 521
@@ -125,6 +126,8 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
 =======
+=======
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
     y: 561
     width: 1466
     height: 386
@@ -595,6 +598,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
     m_Target: {x: -0.30931872, y: 0.6378878, z: -0.31192753, w: -0.63255274}
+<<<<<<< HEAD
     speed: 2
 <<<<<<< HEAD
     m_Value: {x: 0.14532548, y: 0.8445386, z: -0.42846587, w: 0.28644755}
@@ -603,11 +607,17 @@ MonoBehaviour:
     speed: 2
     m_Value: 4.294595
 =======
+=======
+    speed: 2
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
     m_Value: {x: -0.3093186, y: 0.63788754, z: -0.3119274, w: -0.6325525}
   m_Size:
     m_Target: 36.016018
     speed: 2
     m_Value: 34.465088
+<<<<<<< HEAD
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
+=======
 >>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
   m_Ortho:
     m_Target: 0
@@ -683,15 +693,21 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -481
     m_HBaseRangeMax: 481
     m_VBaseRangeMin: -202.5
     m_VBaseRangeMax: 202.5
 =======
+=======
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
     m_HBaseRangeMin: -550.5
     m_HBaseRangeMax: 550.5
     m_VBaseRangeMin: -259.5
     m_VBaseRangeMax: 259.5
+<<<<<<< HEAD
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
+=======
 >>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
@@ -710,17 +726,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       y: 0
       width: 962
       height: 405
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 481, y: 202.5}
 =======
+=======
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
       y: 21
       width: 1101
       height: 519
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 550.5, y: 259.5}
+<<<<<<< HEAD
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
+=======
 >>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -729,15 +751,21 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -481
       y: -202.5
       width: 962
       height: 405
 =======
+=======
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
       x: -550.5
       y: -259.5
       width: 1101
       height: 519
+<<<<<<< HEAD
+>>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
+=======
 >>>>>>> parent of 8d88c5a... Ajout de la synchronisation des joueurs
     m_MinimalGUI: 1
   m_defaultScale: 1
