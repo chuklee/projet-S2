@@ -59,13 +59,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 11990}
+      Script: {instanceID: 11992}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 12964}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -112,15 +112,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 12964}
     - Class: 114
-      Script: {instanceID: 13300}
+      Script: {instanceID: 13302}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13434}
     - Class: 114
-      Script: {instanceID: 16754}
+      Script: {instanceID: 15386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -181,19 +181,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11376}
     - Class: 114
-      Script: {instanceID: 11698}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 13022}
+      Script: {instanceID: 11700}
     - Class: 114
-      Script: {instanceID: 13096}
+      Script: {instanceID: 13024}
     - Class: 114
-      Script: {instanceID: 13198}
+      Script: {instanceID: 13098}
     - Class: 114
-      Script: {instanceID: 13338}
+      Script: {instanceID: 13200}
     - Class: 114
-      Script: {instanceID: 13518}
+      Script: {instanceID: 13340}
     - Class: 114
-      Script: {instanceID: 14604}
+      Script: {instanceID: 13520}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -441,6 +441,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 690c0b1a818ad97ab70908d6171d25eb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerSetup
   - hash:
       serializedVersion: 2
       Hash: 051c18b41ea168ba34b7f7c41b137e34
@@ -1185,12 +1191,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: kcp2k
     className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 690c0b1a818ad97ab70908d6171d25eb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerSetup
   platform: 19
   scenePathNames:
   - Assets/Menu.unity
